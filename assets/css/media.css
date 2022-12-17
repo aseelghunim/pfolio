@@ -1,0 +1,214 @@
+@media (min-width:768px) and (max-width:991px){
+    html{
+        font-size: 24px;
+    }
+} 
+@media (max-width:992px){
+    .navbar{
+        padding-top: 1rem; 
+        background-color: #f3f3f3; 
+    }
+    .navbar-brand img{
+        width: 110px;
+    }
+    .navbar .navbar-icon{
+        color: #ff724c;
+        font-size: 1.25rem;
+    }
+    .navbar .navbar-toggler{
+        border: none;
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .nav-item{
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+    .navbar .nav-item .nav-link{
+        width: fit-content;
+    }
+    .header-content{
+        text-align: left;
+        left: 0;
+        top: 45%;
+    }
+    .header-content h1{
+        font-size: 2.75rem;
+    }
+    .about .left .one,
+    .about .left .two{
+        padding-bottom: 1.5rem;
+    }
+    .about .left .three,
+    .about .left .four{
+        padding-top: 1.5rem;
+    }
+    .about .right{
+        /* padding: 0.75rem; */
+    }
+    .about .right p{
+        font-size: 0.95rem;
+    }
+    .services,.portfolio{
+        padding: 80px 0 0;
+    }
+    .services .sub-heading, .portfolio .sub-heading, .resume .sub-heading, .testimonials .sub-heading{
+        margin-bottom: 2.5rem;
+    }
+    .nav-pills .nav-link{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-right: 0.25rem;
+    }
+    .resume .item .school h6:before,.resume .item .job h6:before,.resume .skills .skill h6:before{
+        left: -1.625rem;
+    }
+    .resume .image-item, .resume .skills{
+        margin-top: 3rem;
+    }
+    .carousel-inner{
+        margin-top: 3.5rem;
+    }
+    .testimonials .carousel-item .item .quote p{
+        width: 100%;
+    }
+    .testimonials .carousel-item .item .quote{
+        margin-top: 1rem;
+    }
+    .contact .sub-heading{
+        margin-bottom: 2rem;
+    }
+    .contact p{
+        width: 85%;
+        margin-bottom: 2rem;
+    }
+    .contact .send-message{
+        margin-top: 2rem;
+    }
+    .map{
+        height: 60vh;
+    }
+    .map .contact-details{
+        padding: 1.4375rem 0.9375rem;
+    }
+    .map .contact-details .item:not(.last){
+        margin-bottom: 1rem;
+    } 
+    .footer{
+        padding: 1rem 0;
+    }
+    .footer .col-md-4{
+        padding: 0;
+    }
+    .footer p{
+        font-size: 0.825rem;
+    }
+    .footer img{
+        width: 45%;
+    }
+}
+@media (min-width:577px){
+    .carousel.small{
+        display: none;
+    }
+}
+@media (max-width:576px){
+    .header-content{
+        left: 1rem;
+        top: 55%;
+    }
+    .header-content h1{
+        font-size: 2.5rem;
+    }
+    .about .left .one,
+    .about .left .two,
+    .about .left .three,
+    .about .left .four{
+        border: none;
+    }
+    .about .left .three{
+        padding-bottom: 1.5rem;
+    }
+    .about .left .three,
+    .about .left .four{
+        padding-top: 0;
+    }
+    .services .sub-heading, .portfolio .sub-heading, .resume .sub-heading, .testimonials .sub-heading{
+        margin-bottom: 2rem;
+    }
+    .services,.portfoloio{
+        padding: 60px 0 0;
+    }
+    .services .item{
+        padding-top: 1rem;
+    }
+    .portfolio .nav-pills li:nth-last-child(1),
+    .portfolio .nav-pills li:nth-last-child(2){
+        margin-top: 0.75rem;
+    }
+    .nav-pills .nav-link{
+        margin-right: 0.5rem;
+    }
+    .resume{
+        padding: 80px 0 30px;
+    }
+    .resume .item .school h6:before,.resume .item .job h6:before,.resume .skills .skill h6:before{
+        left: -1.75rem;
+    }
+    .resume .jobs,.resume .skills{
+        margin-top: 1.5rem;
+    }
+    .resume .skills{
+        margin-top: 1rem;
+    }
+    .resume .image-item{
+        display: none;
+    }
+    .download{
+        padding: 30px 0;
+    }
+    .download .container{
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+    }
+    .download .text a{
+        margin: auto;
+    }
+    .carousel.large{
+        display: none;
+    }
+    .carousel-indicators {
+        bottom: -50px;
+    }
+    .testimonials{
+        padding: 70px 0 80px;
+    }
+    .testimonials .item{
+        margin-bottom: 1rem;
+    }
+    .contact{
+        padding: 70px 0;
+    }
+    .map .contact-details{
+        width: 100%;
+    }
+    .map .contact-details .item{
+        justify-content: center;
+    }
+    .map .contact-details .item.last .description{
+       
+    }
+    .footer{
+        padding: 1rem 0.5rem;
+    }
+    .footer p{
+        font-size: 0.9rem;
+    }
+    .footer img{
+        width: 25%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.75rem;
+    }
+}
