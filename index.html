@@ -14,7 +14,12 @@
     <title>P.folio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <!-- ===================loading screen==================  -->
+    <div class="loading">
+      <span class="loader"></span>
+    </div>
+    <!-- ================start navbar====================  -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-transparent pb-0" id="navbar">
       <div class="container">
             <a class="navbar-brand" href="#"
               ><img src="assets/images/logo.png" alt="logo"
@@ -89,7 +94,7 @@
     </header>
     <!-- ================end header==================== -->
     <!-- ================start about==================== -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container-lg">
         <div class="row main">
           <div class="col-lg-6">
@@ -1108,7 +1113,10 @@
       </div>
     </footer>
     <!-- ================end footer==================== -->
+    <!-- move to top button  -->
+    <a href="" id="move-to-top" class="move-to-top d-flex justify-content-center align-items-center rounded-circle"><i class="fa-solid fa-up-long"></i></a>
     <!-- Bootstrap 5.2 JS  -->
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
